@@ -1,0 +1,9 @@
+nodes:
+    - Compute:
+        metadata.labels.node-role.kubernetes.io/compute
+    - Master:
+        metadata.labels.node-role.kubernetes.io/master
+    - Infra:
+        metadata.labels.node-role.kubernetes.io/infra
+    - Router:
+        node-role.kubernetes.io/*router
